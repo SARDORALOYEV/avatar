@@ -1,0 +1,28 @@
+@layer utilities {
+    .bg-custom-radial {
+      background: radial-gradient(50% 50% at 50% 50%, rgba(0, 131, 253, 0.63), rgba(0, 131, 253, 0) 100%);
+    }
+    .bg-custom-radia {
+    background: radial-gradient(1384.26% 141.42% at 0% 100%, rgb(128, 40, 241) 5.374%, rgb(40, 241, 229) 100%);
+  }
+  .panda{
+    background: linear-gradient(180deg, rgba(42, 50, 250, 0.35) 0%, rgba(0, 0, 0, 0.71) 51.04%, rgba(255, 5, 170, 0.43) 100%);
+
+  }
+  .marvel{
+    background: linear-gradient(90deg, #FF00D6 0%, #005E7C 40.43%, rgba(0, 111, 147, 0.09) 79.2%);
+  }
+  .title{
+    background: radial-gradient(circle, #8028F1 5.37%, #28F1E5 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 48px; 
+  }
+  .footer{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.2) 0%, rgba(9, 9, 121, 0.137194) 31.4%, rgba(0, 212, 255, 0.2) 100%);
+
+  }
+  }
+
+
+  
